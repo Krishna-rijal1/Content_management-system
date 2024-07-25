@@ -45,8 +45,8 @@ jobs:
           node-version: 20
       
 
-      - name: Generate Deployment Package
-        run: cd mern-todo && zip -r todo.zip *
+      # - name: Generate Deployment Package
+      #   run: cd mern-todo && zip -r todo.zip *
 
       - name: Terraform Initialize
         run: terraform init
